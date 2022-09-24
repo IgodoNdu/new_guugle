@@ -11,7 +11,7 @@ export const Routing = () => {
         <Routes>
           <Route path='/' element={<Search />} />
           {/**Routing multiple routes o one component */}
-          {['search', 'images', 'news', 'videos'].map(path => <Route path={path} element={<Results />} />)}
+          {['search', 'image', 'news', 'videos'].map(path => <Route path={path} element={<Results />} />)}
           
         </Routes>
     </div>
